@@ -14,7 +14,7 @@ export default class GameForm extends React.Component{
   render(){
     return (
       <form className="game-form" onSubmit={event => this.onSubmit(event)}>
-        <input maxLength="3" type="text" ref={input => this.guessInput = input} required />
+        <input maxLength="3" type="text" ref={input => this.guessInput = input} placeholder="Enter your guess" required />
         <button type="submit">Guess</button>
       </form>
     );

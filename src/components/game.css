@@ -1,16 +1,90 @@
+.navbar {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .game-board {
+  margin: 0 auto;
   text-align: center;
-  border: 1px solid black;
+  color: white;
+  width: 380px;
+  border-radius: 4px;
+  border: 2px solid white;
+  box-shadow: rgb(26, 31, 52) 1px 1px;
+}
+
+.game-feedback {
+  background-color: #BD404E;
+  margin: 0;
+  height: 45px;
+  padding: 25px;
+  font-size: 1.5em;
+}
+
+.game-form {
+  background-color: #3A4261;
+  padding: 15px;
+}
+
+.game-form input {
+  border: none;
+  background-color: #515978;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.game-form button {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: #20253B;
+  border: none;
+  width: 234px;
+  height: 30px;
+  font-size: 1.25em;
+}
+
+.guess-number {
+  background-color: #3A4261;
+  margin: 0;
+  padding: 25px;
+  font-size: 1.5em;
+}
+
+.number-list {
+  background-color: #4AA6AA;
+  height: 50px;
+  overflow-x: none;
+  overflow-y: scroll;
+  padding: 15px;
+}
+
+.previous-guess {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  background-color: #3A4261;
+}
+
+.app {
+  padding: 15px;
+  background-color: #20253B;
+  height: 95vh;
 }
 
 .app h1 {
   text-align: center;
+  color: white;
+}
+
+.what {
+  clear: both;
 }
 
 .new-game {
   cursor: pointer;
-}
-
-.previous-guess {
-  display: inline;
+  text-align: right;
 }
