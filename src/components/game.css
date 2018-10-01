@@ -1,0 +1,16 @@
+.game-board {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.app h1 {
+  text-align: center;
+}
+
+.new-game {
+  cursor: pointer;
+}
+
+.previous-guess {
+  display: inline;
+}
